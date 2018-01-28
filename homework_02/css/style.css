@@ -13,7 +13,8 @@ write your code here
 
 */
 /*Task 1 ~*/
-@media print {
+@media print{
+
     div.tm-sidebar, #about, .blocks, #ideas, img.img-fluid, #contact, .heading {
     display : none;
     }
@@ -24,32 +25,78 @@ write your code here
     margin-left : 0;
     padding-left : 0;
     }
+    .tm-banner{
+        height: 250px;
+    }
+    .tm-content-box{
+        margin-bottom: 0px;
+    }
+    .pad{
+       padding: 0px;
+    }
+    .flex-item img{
+        padding-left: 30%;
+    }
+
+    .tm-team-description-container{
+            max-width: 1300px;
+    }
+    div.tm-content-box{
+        display: block;
+    }
+  #home{
+      padding-left: 0px;
+      padding-right: 0px;
+  }
 }
-
-
-
-
-
+    
 
 /*Task 2*/
 
-/*Task 3*/
+/*Task 3 done*/
 p::first-letter {
     font-size : 30px;
     color : #76cdd7;
 }
-/*Task 4*/
-/*Task 5*/
-/*Task 6*/
-/*Task 7*/
+/*Task 4 done*/
+nav, section {
+    box-shadow: 0 0 10px rgb(123,123,123);
+}
+/*Task 5 done*/
+.gallery-container a img{
+border: 2px silver;
+}
+/*Task 6 done*/
+.carousel-content .tm-section-title{
+    letter-spacing: 5px;
+    color:gainsboro;
+    }
+
+/*Task 7 done*/
+h2 ~ p{
+    font-style: italic;
+}
 /*Task 8*/
-/*Task 9*/
+
+/*Task 9 done*/
+.heading h2{
+    color:#b6e5eb;
+    text-align: center;
+}
+.heading .text::after {
+    content: "New";
+    vertical-align: top;
+    font-size: 10px;
+    color: red;
+}
 .heading a:visited{ 
         color: silver;
     }
 .heading a:hover{
         color: #a4dae7;
     }
+    
+    
 /*Task 10*/
 /*Task 11*/
 /*Task 12*/
