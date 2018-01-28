@@ -12,3 +12,46 @@ a:focus{color:#666;outline:0}ul{padding:0;margin:0}body{background-color:#f2f2f2
 write your code here
 
 */
+/*Task 1 ~*/
+@media print {
+    div.tm-sidebar, #about, .blocks, #ideas, img.img-fluid, #contact, .heading {
+    display : none;
+    }
+    div > div.pad > h2.tm-section-title {
+    color : #3d33ff;
+    }
+    div.tm-main-content {
+    margin-left : 0;
+    padding-left : 0;
+    }
+}
+
+
+
+
+
+
+/*Task 2*/
+
+/*Task 3*/
+p::first-letter {
+    font-size : 30px;
+    color : #76cdd7;
+}
+/*Task 4*/
+/*Task 5*/
+/*Task 6*/
+/*Task 7*/
+/*Task 8*/
+/*Task 9*/
+.heading a:visited{ 
+        color: silver;
+    }
+.heading a:hover{
+        color: #a4dae7;
+    }
+/*Task 10*/
+/*Task 11*/
+/*Task 12*/
+/*Task 13*/
+
