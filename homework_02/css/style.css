@@ -73,7 +73,7 @@ border: 2px silver;
     }
 
 /*Task 7 done*/
-h2 ~ p{
+h2 + p{
     font-style: italic;
 }
 /*Task 8*/
@@ -98,6 +98,12 @@ h2 ~ p{
     
     
 /*Task 10*/
+.box-bg:nth-child(odd){
+background-color: #f2f2f2;
+}
+.box p::first-letter{
+    color: #000;
+}
 /*Task 11*/
 /*Task 12*/
 /*Task 13*/
