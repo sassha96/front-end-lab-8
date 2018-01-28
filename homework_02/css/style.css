@@ -104,7 +104,24 @@ background-color: #f2f2f2;
 .box p::first-letter{
     color: #000;
 }
-/*Task 11*/
-/*Task 12*/
+.box{
+    border: 0px;
+}
+/*Task 11 done*/
+.tm-main-nav li:not(:last-child){
+    border-bottom:1px solid silver;
+    width:100%;
+}
+nav.tm-main-nav{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/*Task 12 done*/
+form input[type="text"] {
+    color: red;
+}
+form button[type="submit"]{
+    color: red;
+}
 /*Task 13*/
 
