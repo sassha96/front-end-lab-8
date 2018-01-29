@@ -1,0 +1,74 @@
+html{
+    margin-left: 169px;
+    margin-right: 164px;
+    margin-bottom: 20px;
+    max-width: 2000px;
+    background-color: $backgroundColor;
+    color: $textColor;
+}
+
+#content{
+    background-color: $bodyBackgroundColor;
+    padding-left: 20px;
+    padding-right: 20px;
+    h1{
+        margin-top: 0px;
+        padding-top: 0px;
+        text-align: center;
+        color: $headingColor;
+    }
+    h1:nth-child(1){
+        padding-top: 20px;
+        margin-bottom:21px; 
+    }
+    h2{
+        margin-top: 16px;
+        color: $headingColor;
+    }
+    .brief{
+        background-color: $briefBackgroundColor;
+        margin-right: 20px;
+        float: left;
+
+        width: 389px;
+        height: 74px;
+        
+        padding-left: 20px;
+        padding-top: 20px; 
+        padding-right: 15px;
+        
+    }
+    .img-left {
+        padding:2px;
+        border:2px solid $headingColor;
+        float: left;
+        margin-right: 20px;
+     }
+     .img-right{
+        padding:2px;
+        border:2px solid $headingColor;
+        float: right;
+        margin-left: 20px;
+     }
+     a{
+         color: $reflinkColor;
+     }    
+     table{
+         padding-left: 10px;
+     }
+     table tr:nth-child(1){
+        color: black;
+        height: 40px;
+        text-transform: uppercase;
+        text-align: left;
+        background-color: $formTextColor;
+     }
+     th,td{
+         padding-left: 20px;
+     }
+     tr{
+         background-color: $tableBackgroundColor;
+         height: 40px;
+     }
+}
+
