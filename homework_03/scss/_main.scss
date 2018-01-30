@@ -29,7 +29,7 @@ html{
         background-color: $briefBackgroundColor;
         margin-right: 20px;
         float: left;
-
+        color: black;
         width: 389px;
         height: 74px;
         
@@ -54,21 +54,71 @@ html{
          color: $reflinkColor;
      }    
      table{
-         padding-left: 10px;
+        padding-left: 10px;
+        border-collapse: collapse;
      }
+      
+    
      table tr:nth-child(1){
         color: black;
         height: 40px;
         text-transform: uppercase;
         text-align: left;
-        background-color: $formTextColor;
+        background-color:$tableHeaderColor;
      }
      th,td{
          padding-left: 20px;
      }
+     th:not(:last-child){
+         border-right: 1px solid white;
+     }
      tr{
          background-color: $tableBackgroundColor;
          height: 40px;
+         border-bottom: 1px solid  $tableHeaderColor;
      }
+     table caption{
+         color: black;
+     }
+     form{
+         color: $formTextColor;
+         height: 400x;
+     }
+     .nameBlock{
+        text-align:left;
+        display:inline;
+     }
+     .nameBlock input{
+        width: 470px;
+        height: 20px;
+     }
+     .email,.mark,{
+            width: 956px;
+            height: 20px;
+     }
+     .responsive{
+        width: 956px;
+        height: 160px;
+        max-width: 960px;
+        max-height: 200px;
+     }
+     
+     .fname{
+         float: left;
+     }
+     .sname{
+         float: right;
+     }
+     button{
+         margin-top: 10px;
+         margin-bottom: 30px;
+         width: 240px;
+         height: 45px;
+         background-color: $bodyBackgroundColor;
+         color: $reflinkColor;
+         font-size: 20px;
+         border: 1px solid $reflinkColor;
+     }
+     
 }
 

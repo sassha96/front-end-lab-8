@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Epam Front End Lab. Preprocessors</title>
-  <link rel="stylesheet" type="text/css" href="css/style1.css">
+  <link rel="stylesheet" type="text/css" href="css/style2.css">
   <!--<link rel="stylesheet" type="text/css" href="css/style2.css">-->
 </head>
 
@@ -14,10 +14,10 @@
     <p>Львів — місто обласного підпорядкування в Україні, адміністративний центр Львівської області, національно-культурний
       та освітньо-науковий осередок країни, великий промисловий центр і транспортний вузол.</p>
     <h2>Історія</h2>
-    <p><img class="img-left" src="img/lviv.jpg" width="425" height="155" alt="" /> Археологічні розкопки свідчать, що район
-      Львова був заселений ще у V столітті. Львів був заснований князем Данилом Галицьким, як удільне місто для його сина
-      Льва. Перша письмова згадка про Львів, датована 1256 роком, міститься у Галицько-Волинському літописі і фігурує в контексті
-      опису пожежі в столиці Галицько-Волинської держави — Холмі.</p>
+    <p>
+      <img class="img-left" src="img/lviv.jpg" width="425" height="155" alt="" /> Археологічні розкопки свідчать, що район Львова був заселений ще у V столітті. Львів був заснований князем Данилом
+      Галицьким, як удільне місто для його сина Льва. Перша письмова згадка про Львів, датована 1256 роком, міститься у Галицько-Волинському
+      літописі і фігурує в контексті опису пожежі в столиці Галицько-Волинської держави — Холмі.</p>
     <p>Після смерті Данила, князь Лев переніс до Львова столицю Галицько-Волинської держави. Згодом, у 1303 році, Львів став
       центром Галицької митрополії Константинопольського патріархату. Львів був важливим торгово-економічним і політичним
       центром Східної Європи. Давньоруський Львів складався з дитинця та укріпленої осади в районі сучасної площі Старий
@@ -81,17 +81,23 @@
       <tr>
         <td>Львівський державний академічний театр опери та балету</td>
         <td>просп. Свободи, 28</td>
-        <td><a href="#">http://opera.lviv.ua/</a></td>
+        <td>
+          <a href="#">http://opera.lviv.ua/</a>
+        </td>
       </tr>
       <tr>
         <td>Театр імені Марії Заньковецької</td>
         <td>вул. Лесі Українки, 1</td>
-        <td><a href="#">http://www.zankovetska.com.ua/</a></td>
+        <td>
+          <a href="#">http://www.zankovetska.com.ua/</a>
+        </td>
       </tr>
       <tr>
         <td>Театр імені Леся Курбаса</td>
         <td>вул. Леся Курбаса, 3</td>
-        <td><a href="#">http://www.kurbas.lviv.ua/academy</a></td>
+        <td>
+          <a href="#">http://www.kurbas.lviv.ua/academy</a>
+        </td>
       </tr>
       <tr>
         <td>Муніципальний театр</td>
@@ -111,7 +117,9 @@
       <tr>
         <td>Перший український театр для дітей та юнацтва</td>
         <td>вул. Гнатюка, 11</td>
-        <td><a href="#">http://nashteatr.lviv.ua/</a></td>
+        <td>
+          <a href="#">http://nashteatr.lviv.ua/</a>
+        </td>
       </tr>
       <tr>
         <td>Театр естрадних мініатюр «І люди, і ляльки»</td>
@@ -123,7 +131,38 @@
     <p>Серед відомих бібліотек Львова — Бібліотека Львівського університету, Міська центральна бібліотека імені Лесі Українки,
       Центральна міська дитяча бібліотека, Обласна бібліотека для дітей, Обласна бібліотека для юнацтва та інші.</p>
     <div>
-       <!--TODO write form fields-->
+      <!--TODO write form fields-->
+      <h2>Залишити відгук</h2>
+      <form>
+        <div class="nameBlock">
+        <div class="fname">
+          <label for="first-name">ІМЯ</label>
+          <br>
+          <input type="text" name="first-name" placeholder="Введіть імя">
+        </div>
+        <div class="sname">
+          <label for="first-name">ПРІЗВИЩЕ</label>
+          <br>
+          <input type="text" name="second-name" placeholder="Введіть прізвище">
+        </div>
+        <br><br><br>
+      </div>
+        <div>
+          <label for="email">ІМЕЙЛ</label>
+          <br>
+          <input class="email" type="text" name="email" placeholder="Введіть імейл">
+        </div>
+        <div>
+            <br><label>ОЦІНІТЬ</label>
+          <br>
+          <input class="mark" type="text" name="">
+        </div>
+        <div>
+            <label>НАПИШІТЬ ВІДГУК</label><br>
+            <textarea class="responsive" name="textarea" cols="24" rows="2" placeholder="залишити відгук"></textarea>
+        </div>
+      </form>
+      <button type="submit" form="form1" value="Submit">НАДІСЛАТИ</button>
     </div>
   </div>
 </body>

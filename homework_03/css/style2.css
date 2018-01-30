@@ -25,6 +25,7 @@ html {
     background-color: #fff178;
     margin-right: 20px;
     float: left;
+    color: black;
     width: 389px;
     height: 74px;
     padding-left: 20px;
@@ -43,7 +44,8 @@ html {
   #content a {
     color: #f5c70f; }
   #content table {
-    padding-left: 10px; }
+    padding-left: 10px;
+    border-collapse: collapse; }
   #content table tr:nth-child(1) {
     color: black;
     height: 40px;
@@ -52,6 +54,41 @@ html {
     background-color: #94a34e; }
   #content th, #content td {
     padding-left: 20px; }
+  #content th:not(:last-child) {
+    border-right: 1px solid white; }
   #content tr {
     background-color: #677d01;
-    height: 40px; }
+    height: 40px;
+    border-bottom: 1px solid #94a34e; }
+  #content table caption {
+    color: black; }
+  #content form {
+    color: black;
+    height: 400x; }
+  #content .nameBlock {
+    text-align: left;
+    display: inline; }
+  #content .nameBlock input {
+    width: 470px;
+    height: 20px; }
+  #content .email, #content .mark {
+    width: 956px;
+    height: 20px; }
+  #content .responsive {
+    width: 956px;
+    height: 160px;
+    max-width: 960px;
+    max-height: 200px; }
+  #content .fname {
+    float: left; }
+  #content .sname {
+    float: right; }
+  #content button {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 240px;
+    height: 45px;
+    background-color: #3b3b3b;
+    color: #f5c70f;
+    font-size: 20px;
+    border: 1px solid #f5c70f; }
