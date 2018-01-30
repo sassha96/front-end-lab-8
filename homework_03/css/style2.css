@@ -45,7 +45,8 @@ html {
     color: #f5c70f; }
   #content table {
     padding-left: 10px;
-    border-collapse: collapse; }
+    border-collapse: collapse;
+    margin-bottom: 40px; }
   #content table tr:nth-child(1) {
     color: black;
     height: 40px;
@@ -53,7 +54,8 @@ html {
     text-align: left;
     background-color: #94a34e; }
   #content th, #content td {
-    padding-left: 20px; }
+    padding-left: 20px;
+    font-weight: normal; }
   #content th:not(:last-child) {
     border-right: 1px solid white; }
   #content tr {
@@ -64,8 +66,9 @@ html {
     color: black;
     text-align: right; }
   #content form {
-    color: black;
     height: 400x; }
+  #content form label {
+    color: #fccd10; }
   #content .nameBlock {
     text-align: left;
     display: inline; }

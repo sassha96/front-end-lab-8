@@ -36,7 +36,6 @@ html{
         padding-left: 20px;
         padding-top: 20px; 
         padding-right: 15px;
-        
     }
     .img-left {
         padding:2px;
@@ -56,6 +55,7 @@ html{
      table{
         padding-left: 10px;
         border-collapse: collapse;
+        margin-bottom: 40px;
      }
       
     
@@ -64,10 +64,12 @@ html{
         height: 40px;
         text-transform: uppercase;
         text-align: left;
+        
         background-color:$tableHeaderColor;
      }
      th,td{
          padding-left: 20px;
+         font-weight:normal; 
      }
      th:not(:last-child){
          border-right: 1px solid white;
@@ -82,8 +84,10 @@ html{
          text-align: right;
      }
      form{
-         color: $formTextColor;
          height: 400x;
+     }
+     form label{
+        color: $formTextColor;
      }
      .nameBlock{
         text-align:left;
