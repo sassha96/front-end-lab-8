@@ -24,11 +24,13 @@ html {
     color: #fccd10; }
   #content .brief {
     background-color: #fff178;
-    margin-right: 20px;
     float: left;
     color: black;
-    width: 389px;
-    height: 74px;
+    width: 925px;
+    height: 25px;
+    margin-right: 0px;
+    margin-bottom: 33px;
+    padding-bottom: 15px;
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 15px; }
@@ -47,7 +49,7 @@ html {
   #content table {
     padding-left: 10px;
     border-collapse: collapse;
-    margin-bottom: 40px; }
+    margin-bottom: 50px; }
   #content table tr:nth-child(1) {
     color: black;
     height: 35px;
@@ -61,7 +63,7 @@ html {
     border-right: 1px solid white; }
   #content tr {
     background-color: #677d01;
-    height: 35px;
+    height: 41px;
     border-bottom: 1px solid #94a34e; }
   #content table caption {
     color: black;

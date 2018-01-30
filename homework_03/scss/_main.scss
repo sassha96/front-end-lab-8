@@ -28,12 +28,15 @@ html{
     }
     .brief{
         background-color: $briefBackgroundColor;
-        margin-right: 20px;
         float: left;
         color: black;
         width: $briedWidth;
         height: $briefHeight;
+
+        margin-right: $briefMarginRight;
+        margin-bottom: $briefMarginBottom;
         
+        padding-bottom: $briefPaddingBottom;
         padding-left: 20px;
         padding-top: 20px; 
         padding-right: 15px;
@@ -56,7 +59,7 @@ html{
      table{
         padding-left: 10px;
         border-collapse: collapse;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
      }
       
     
@@ -77,7 +80,7 @@ html{
      }
      tr{
          background-color: $tableBackgroundColor;
-         height: 35px;
+         height: 41px;
          border-bottom: 1px solid  $tableHeaderColor;
      }
      table caption{
