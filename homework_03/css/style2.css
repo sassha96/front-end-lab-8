@@ -61,7 +61,8 @@ html {
     height: 40px;
     border-bottom: 1px solid #94a34e; }
   #content table caption {
-    color: black; }
+    color: black;
+    text-align: right; }
   #content form {
     color: black;
     height: 400x; }
