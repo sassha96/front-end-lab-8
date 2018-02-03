@@ -273,7 +273,7 @@ a:active {
     background-color: #f3f3f3;
     border: 1px solid #343638;
     padding: 15px;
-    width: 300px;
+    width: 250px;
     float: left;
     height: 50px;
 }
@@ -287,7 +287,7 @@ a:active {
     background-color: #343638;
     border: none;
     float: left;
-    width: 150px;
+    width: 120px;
     margin-top: 32px;
 }
 
@@ -323,17 +323,18 @@ a:active {
     background-color: #f3f3f3;
     border: 1px solid #343638;
     padding: 15px;
-    width: 170px;
+    width: 120px;
     float: left;
 }
 
 .info .button {
-    padding: 15px 15px 17px 15px;
     background-color: #343638;
     border: none;
     color: #fff;
     float: left;
-    width: 100px;
+    width: 70px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     margin-top: 25px;
 }
 
