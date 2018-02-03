@@ -116,15 +116,13 @@ a:active {
     width: 100%;
     padding-left: 6%;
     padding-right: 6%;
-    height: 300px;
+    height: 250px;
     background-color: #FFF;
-    justify-content: space-between;
-    align-items: baseline;
-    padding-top: 50px;
+    justify-content: space-around;
 }
 
 .a-box-1 {
-    padding-top: 70px;
+    padding-top: 80px;
     flex-basis: 35%;
     font-size: 20px;
 }
@@ -167,6 +165,7 @@ a:active {
 .imageContainer span{
     font-size: 14px;
 }
+
 .content .imageContainer .img1{
     width: 770px;
     height: 300px;
@@ -189,8 +188,11 @@ a:active {
 }
 .imageContainer div{
     display: flex;
-    justify-content: flex-end;
     margin: 11px; 
+    padding-left: 30px;
+    
+    flex-direction: row;
+    justify-content: space-between;
 }
 .imageContainer div a{
     text-align: center;
@@ -199,22 +201,30 @@ a:active {
     width: 100px;
     padding-top: 13px;
 }
+.imgText{
+    color: #FFF;
+    
+    align-self: flex-end;   
+    margin-top: 1000px;
+    margin: 0px;
+}
 .imgButton {
     text-align: center;
     color: #fff;
+    
     letter-spacing: 1px;
     font-weight: bold;
     border: 2px solid #fff;
-    background-color: rgba( 0, 0, 0, 0.7);
+    background-color: rgba( 0, 0, 0, 0.5);
     font-size: 13px;
-    width: 30px;
-    height: 10px;
+    max-width: 80px;
+    height: 30px;
     padding: 0px;
 }
 .imgButton:hover{
     color: #B7C8D9;
     border: 2px solid #B7C8D9;
-    
+    transition: color 0.5s;
 }
 .newsLetter {
     
