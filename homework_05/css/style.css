@@ -1,11 +1,118 @@
-body{
+body {
     font-size: 12px/1.2;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    height: auto;
 }
 
+a {
+    text-decoration: none;
+    color: #464547;
+}
+
+.logo {
+    width: 150px;
+    height: 54px;
+    background: url(../img/logo.png) no-repeat center / cover;
+    align-self: flex-end;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+/*     justify-content: space-between;
+ */    font-size: 17px;
+    font-weight: 1000;
+    height: 70px;
+    margin: 0px;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+header a{
+    margin-left: 20px;
+}
+
+header a:hover {
+    color: #39c2d7;
+    transition: color 0.15s;
+}
+
+.promo {
+    background: url(../img/banner.jpg) no-repeat center / cover;
+    width: 100%;
+    height: 420px;
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.promo p {
+    font-size: 35px;
+    color: #fff;
+    margin-left: 15%;
+    margin-top: 10px;
+    padding-top: 50px;
+    line-height: 45px;
+    font-weight: bold;
+    width: 320px;
+    height: 200px;
+}
+
+.newsBox {
+    color: #39c2d7;
+    background-color: #cccccc;
+    width: 310px;
+    height: 270px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.newsBox img {
+    padding: 5px;
+}
+
+.newsBox h3 {
+    margin: 0px;
+    padding-left: 5px;
+}
+
+.newsBox p {
+    margin: 0px;
+    padding: 5px;
+}
+
+.newsBox:hover {
+    background-color: #39c2d7;
+    transition: background-color 0.25s;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: #fff;
+    width: 100%;
+    height: 70px;
+    background-color: #39c2d7;
+}
+
+
 /*
+
 #fff
 #333
 #464547
 #39c2d7
+
 */
