@@ -12,12 +12,10 @@
         header {
             display: flex;
             flex-direction: row;
-            flex-wrap: wrap;
             align-items: center;
             font-size: 17px;
-            font-weight: 1000;
+            font-weight: 900;
             height: 70px;
-            margin: 0px;
             margin-left: 10%;
         }
         
@@ -51,7 +49,7 @@
             margin-top: 10px;
             padding-top: 50px;
             line-height: 45px;
-            font-weight: 520;
+            font-weight: 500;
             width: 350px;
             height: 200px;
         }
@@ -115,7 +113,7 @@
         footer .links a:nth-child(2n+1) {
             text-decoration: underline;
         }
-        /*MOBILE*/
+        /***************************************  -- MOBILE VERSION -- ***************************************/
         
         @media only screen and (max-width: 574px) {
             header {
@@ -168,30 +166,73 @@
                 display: flex;
                 flex-direction: column;
                 height: auto;
+                padding: 0px;
+                width: 100%;
             }
             footer .links {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-            }
-            footer .links a {
-                display: block;
-            }
-            footer .links ul{
                 padding: 0px;
                 text-align: center;
                 margin-bottom: 0px;
-                line-height: 20px;
             }
-            footer .links a:nth-child(2){
+            footer .rights {
+                font-weight: 600;
+                text-align: center;
+            }
+            footer .links nav {
+                padding-top: 15px;
+                font-weight: 600;
+            }
+            footer .links nav a {
+                display: block;
+                margin: 0px;
+                padding-bottom: 4px;
+            }
+            footer .links a:nth-child(2) {
                 text-decoration: underline;
             }
         }
+        /***************************************  --  TABLET VERSION  --  ***************************************/
         
-        @media only screen and (min-width: 575px) and (max-width: 899px) {}
-        /*
-#fff
-#333
-#464547
-#39c2d7
-*/
+        @media only screen and (min-width: 575px) and (max-width: 899px) {
+            header {
+                justify-content: center;
+                flex-direction: column;
+                height: auto;
+                margin: 0px;
+            }
+            header div.navigation {
+                padding-bottom: 20px;
+            }
+            header div.navigation nav a:first-child {
+                color: #39c2d7;
+            }
+            div.promo {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+            div.promo p {
+                margin: 0px;
+                font-size: 20px;
+                line-height: 23px;
+            }
+            .articles .newsBox {
+                width: 40%;
+                
+                min-height: 200px;
+            }
+            footer {
+                flex-direction: column;
+                padding: 0px;
+                width: 100%;
+            }
+            footer .links {
+                padding-top: 15px;
+            }
+            footer .links nav a:first-child {
+                text-decoration: none;
+            }
+            footer .links nav a:nth-child(2) {
+                text-decoration: underline;
+            }
+        }
