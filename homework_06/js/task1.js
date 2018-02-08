@@ -1,6 +1,6 @@
-let a = parseFloat(prompt("Enter a side:"));
-let b = parseFloat(prompt("Enter b side:"));
-let c = parseFloat(prompt("Enter c side:"));
+let a = parseFloat(prompt("Enter a side:", "0"));
+let b = parseFloat(prompt("Enter b side:", "0"));
+let c = parseFloat(prompt("Enter c side:", "0"));
 function typeOfTriangle(a, b, c) {
     if (a <= 0 || b <= 0 || c <= 0 || Number.isNaN(a) || Number.isNaN(b) || Number.isNaN(c))
         return false;
@@ -35,4 +35,3 @@ if (area != false && triangle != false) {
 }
 else
     console.log("Incorrect data");
-    

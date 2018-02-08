@@ -1,8 +1,7 @@
-let ammount1 = parseFloat(prompt("Enter first amount"));
-let ammount2 = parseFloat(prompt("Enter second amount"));
+let ammount1 = parseFloat(prompt("Enter first amount", "0"));
+let ammount2 = parseFloat(prompt("Enter second amount", "0"));
 let dollar = 27.1196;
 let euro = 33.4602;
-
 if (ammount1 <= 0 || ammount2 <= 0 || Number.isNaN(ammount1) || Number.isNaN(ammount2))
     console.log("Incorrect data");
 else
