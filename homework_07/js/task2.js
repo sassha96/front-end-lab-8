@@ -8,7 +8,7 @@ else {
     let moneyMultiplicator = 1;
     let userChoice;
     let totalPrize = 0;
-    attemps = 3;
+    let attemps = 3;
     let currentPrize;
     let num = Math.floor(Math.random() * (rangeMultiplicator + 1));
     for (let i = 0; i < 3; i++) {
@@ -18,7 +18,7 @@ else {
             case 2: currentPrize = parseInt(10 / 2 * moneyMultiplicator); break;
             case 1: currentPrize = parseInt(5 / 2 * moneyMultiplicator); break;
         }
-        userChoice = prompt("Enter a number from 0 to " + rangeMultiplicator + "\nAttempts left : " + attemps + "\nTotal prize: " + totalPrize + "$" + "\nPossible prize on current attempt: " + currentPrize + "$", "0");
+        userChoice = prompt("Enter a number from 0 to " + rangeMultiplicator + "\nAttempts left: " + attemps + "\nTotal prize: " + totalPrize + "$" + "\nPossible prize on current attempt: " + currentPrize + "$", "0");
         if (userChoice == num) {
             switch (attemps) {
                 case 3: totalPrize += 10 * moneyMultiplicator; break;
@@ -27,7 +27,7 @@ else {
             }
             decision = confirm("Congrats, do you want to continue the game?");
             if (decision == false) {
-                console.log("Thank you for a game. Your prize is:" + totalPrize);
+                console.log("Thank you for a game. Your prize is: " + totalPrize);
                 decision = confirm("Do you wanna play again?");
                 if (decision == false) {
                     break;
