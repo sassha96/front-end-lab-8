@@ -15,7 +15,7 @@ else {
 
         currentPrize = 10 * moneyMultiplicator;
         switch (attemps) {
-            case 2: currentPrize = parseInt(10 / 2 * moneyMultiplicator); break;
+            case 2: currentPrize = parseInt(5 * moneyMultiplicator); break;
             case 1: currentPrize = parseInt(5 / 2 * moneyMultiplicator); break;
         }
         userChoice = prompt("Enter a number from 0 to " + rangeMultiplicator + "\nAttempts left: " + attemps + "\nTotal prize: " + totalPrize + "$" + "\nPossible prize on current attempt: " + currentPrize + "$", "0");
