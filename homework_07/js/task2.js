@@ -8,20 +8,21 @@ else {
     let moneyMultiplicator = 1;
     let userChoice;
     let totalPrize = 0;
-    let num = Math.floor(Math.random() * (rangeMultiplicator + 1));
     attemps = 3;
     let currentPrize;
+    let num = Math.floor(Math.random() * (rangeMultiplicator + 1));
     for (let i = 0; i < 3; i++) {
+
         currentPrize = 10 * moneyMultiplicator;
         switch (attemps) {
             case 2: currentPrize = parseInt(10 / 2 * moneyMultiplicator); break;
             case 1: currentPrize = parseInt(5 / 2 * moneyMultiplicator); break;
         }
-        userChoice = prompt("Enter a number from 0 to " + rangeMultiplicator + "\nAttempts left : " + attemps + "\nTotal prize: " + totalPrize + "\nPossible prize on current attempt: " + currentPrize, "0");
+        userChoice = prompt("Enter a number from 0 to " + rangeMultiplicator + "\nAttempts left : " + attemps + "\nTotal prize: " + totalPrize + "$" + "\nPossible prize on current attempt: " + currentPrize + "$", "0");
         if (userChoice == num) {
             switch (attemps) {
                 case 3: totalPrize += 10 * moneyMultiplicator; break;
-                case 2: totalPrize += parseInt(10 / 5 * moneyMultiplicator); break;
+                case 2: totalPrize += parseInt(5 * moneyMultiplicator); break;
                 case 1: totalPrize += parseInt(5 / 2 * moneyMultiplicator); break;
             }
             decision = confirm("Congrats, do you want to continue the game?");
@@ -31,6 +32,7 @@ else {
                 if (decision == false) {
                     break;
                 } else {
+                    num = Math.floor(Math.random() * (rangeMultiplicator + 1));
                     totalPrize = 0;
                     i = -1;
                     rangeMultiplicator = 5;
@@ -39,6 +41,7 @@ else {
                     continue;
                 }
             } else {
+                num = Math.floor(Math.random() * (rangeMultiplicator + 1));
                 i = -1;
                 attemps = 3;
                 rangeMultiplicator *= 2;
@@ -51,6 +54,7 @@ else {
                 console.log("Thank you for a game. Your prize is: " + totalPrize);
                 decision = confirm("Do you want to play again?");
                 if (decision == true) {
+                    num = Math.floor(Math.random() * (rangeMultiplicator + 1));
                     totalPrize = 0;
                     i = -1;
                     rangeMultiplicator = 5;
