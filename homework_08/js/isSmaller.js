@@ -1,0 +1,1 @@
+let isSmaller = (a, b) => a < b;
