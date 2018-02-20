@@ -3,8 +3,8 @@ increment = (num) => { return (num + 1); }
 function getTransformedArray(array, increment) {
     let transArray = [];
 
-    forEach((array), function (calling) {
-        transArray.push(increment(calling))
+    forEach((array), function (element) {
+        transArray.push(increment(element))
     })
     return transArray;
     console.log(transArray);

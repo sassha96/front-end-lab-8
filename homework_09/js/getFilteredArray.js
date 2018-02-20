@@ -3,9 +3,9 @@ predicateFunction = (num) => {
 }
 function getFilteredArray(array, predicateFunction) {
     let filteredArray = [];
-    forEach((array), function (calling) {
-        if (predicateFunction(calling))
-            filteredArray.push(calling)
+    forEach((array), function (element) {
+        if (predicateFunction(element))
+            filteredArray.push(element)
     })
     return filteredArray;
     console.log(filteredArray);
