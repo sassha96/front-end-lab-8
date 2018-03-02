@@ -1,0 +1,52 @@
+body {
+    background-color: #1C1C1F;
+    font-family: serif;
+    color: #A19E86;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumbCont {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.tank {
+    max-width: 210px;
+}
+
+.tank:hover {
+    background-color: #2C2C2C;
+}
+
+div {
+    display: inline;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+
+.flag {
+    width: 30px;
+    height: 20px;
+}
+
+.infoAboutTank {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.infoAboutTank span:nth-child(2) {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.infoAboutTank span:last-child {
+    color: #D7D2B7;
+}
