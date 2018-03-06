@@ -2,51 +2,105 @@ body {
     background-color: #1C1C1F;
     font-family: serif;
     color: #A19E86;
-    display: flex;
-    flex-wrap: wrap;
 }
 
-.thumbCont {
+.thumbnail-container {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
 
-.tank {
-    max-width: 210px;
+.thumbnail-container .tank {
+    width: 200px;
+    padding: 5px;
 }
 
-.tank:hover {
+.thumbnail-container .tank:hover {
     background-color: #2C2C2C;
 }
 
-div {
-    display: inline;
-}
-
-img {
+.thumbnail-container img {
     width: 200px;
     height: 150px;
 }
 
-.flag {
-    width: 30px;
-    height: 20px;
+.thumbnail-container .flag {
+    width: 23px;
+    height: 13px;
 }
 
-.infoAboutTank {
+.thumbnail-container .infoAboutTank {
     text-align: center;
-    display: block;
-    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     text-transform: uppercase;
-    font-weight: 900;
 }
 
-.infoAboutTank span:nth-child(2) {
+.thumbnail-container .infoAboutTank span:nth-child(2) {
     margin-left: 5px;
     margin-right: 5px;
 }
 
 .infoAboutTank span:last-child {
     color: #D7D2B7;
+    font-weight: bold;
+}
+
+.tank-details img {
+    width: 500px;
+    height: auto;
+}
+
+.infoBlock img, h1 {
+    display: inline;
+}
+
+.tank-details .flag {
+    width: 30px;
+    height: 17px;
+}
+
+.tank-details a {
+    display: block;
+}
+
+.preText {
+    margin: 20px 0 20px 0;
+}
+
+.preText h2 {
+    display: inline;
+}
+
+.preText h2:first-child {
+    padding-right: 500px;
+}
+
+table {
+    display: inline;
+    position: absolute;
+    margin-left: 80px;
+    border-collapse: collapse;
+    color: #D7D2B7;
+}
+
+td, tr {
+    border: 1px solid #A19E86;
+}
+
+table tr {
+    line-height: 30px;
+}
+
+table td {
+    padding-left: 10px;
+}
+
+table td:first-child {
+    width: 500px;
+}
+
+table td:last-child {
+    width: 200px;
 }
