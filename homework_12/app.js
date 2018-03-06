@@ -125,7 +125,7 @@ root.appendChild(tankThumbnails);
 
 let hashCheck = function () {
     if (window.location.hash[0] === '#') {
-        root.innerHTML = '';
+        root.removeChild(tankThumbnails);
         root.appendChild(previewBuild(tanks))
     } else {
         window.history.go();
