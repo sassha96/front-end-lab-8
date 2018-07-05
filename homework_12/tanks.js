@@ -1,7 +1,7 @@
 // DO NOT MODIFY THIS FILE
 var tanks = [
   {
-    model: "Object 140",
+    model: "Object-140",
     preview: "images/tanks/object_140.png",
     country: "ussr",
     country_image: "images/countries/ussr.png",
@@ -29,7 +29,7 @@ var tanks = [
     }
   },
   {
-    model: "e 100",
+    model: "e-100",
     preview: "images/tanks/e-100.png",
     country: "germany",
     country_image: "images/countries/germany.png",
@@ -71,7 +71,7 @@ var tanks = [
     }
   },
   {
-    model: "t57 heavy tank",
+    model: "t57-heavy-tank",
     preview: "images/tanks/t57.png",
     country: "usa",
     country_image: "images/countries/usa.png",
@@ -99,7 +99,7 @@ var tanks = [
     }
   },
   {
-    model: "conqueror gun carriage",
+    model: "conqueror-gun-carriage",
     preview: "images/tanks/conqueror_gun.png",
     country: "uk",
     country_image: "images/countries/uk.png",
